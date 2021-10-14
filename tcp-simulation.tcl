@@ -6,7 +6,7 @@ $ns color 1 Blue
 $ns color 2 Red
 
 #Open the NAM trace file
-set nf [open tcp_output w]
+set nf [open experiment_output w]
 $ns trace-all $nf
 
 #Define a 'finish' procedure
