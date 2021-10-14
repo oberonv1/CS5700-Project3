@@ -5,7 +5,7 @@ set ns [new Simulator]
 $ns color 1 Blue
 $ns color 2 Red
 
-#Open the NAM trace file
+#Open the  trace file
 set nf [open experiment_output w]
 $ns trace-all $nf
 
