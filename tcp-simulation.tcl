@@ -13,10 +13,9 @@ $ns trace-all $nf
 proc finish {} {
         global ns nf
         $ns flush-trace
-        #Close the NAM trace file
+        #Close the trace file
         close $nf
-        #Execute NAM on the trace file
-        exec nam out.nam &
+        #Execute on the trace file
         exit 0
 }
 
