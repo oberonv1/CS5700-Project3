@@ -1,20 +1,20 @@
 set ns [new Simulator]
 
 
-# Output tracing
-set f [open out_exp1.txt w]
-$ns trace-all $f
-
 # Experiment 1 setup
 #
 #        n1                 n4
 #         \                /
 # 10Mb TCP \  10Mb CBR    / 10Mb TCP
 #           n2 --------- n3
-# 10Mb TCP /               \ 10Mb TCP
+#          /               \
 #         /                 \
 #        n5                 n6 
 #
+
+# Output tracing
+set f [open tahoe_10mb_exp1.txt w]
+$ns trace-all $f
 
 set n1 [$ns node]
 set n5 [$ns node]
@@ -32,15 +32,6 @@ $ns duplex-link $n6 $n3 10Mb 10ms DropTail
 $ns queue-limit $n2 $n3 25
 $ns queue-limit $n3 $n2 25
 
-# Orient all the nodes appropriately
-$ns duplex-link-op $n1 $n2 orient right-down
-$ns duplex-link-op $n5 $n2 orient right-up
-$ns duplex-link-op $n2 $n3 orient right
-$ns duplex-link-op $n2 $n3 queuePos 0
-$ns duplex-link-op $n3 $n2 queuePos 0
-$ns duplex-link-op $n4 $n3 orient left-down
-$ns duplex-link-op $n6 $n3 orient left-up
-
 
 
 #Create a UDP agent and attach it to node n0
@@ -50,7 +41,7 @@ $ns attach-agent $n2 $udp0
 # Create a CBR traffic source and attach it to udp0
 set cbr0 [new Application/Traffic/CBR]
 $cbr0 set packetSize_ 1000
-$cbr0 set interval_ 0.0002
+$cbr0 set rate_ 10MB
 $cbr0 attach-agent $udp0
 
 set null0 [new Agent/Null] 
@@ -62,7 +53,7 @@ $udp0 set fid_ 0
 
 # A FTP over TCP/Tahoe from $n1 to $n4
 set tcp [$ns create-connection TCP $n1 TCPSink $n4 1]
-$tcp set window_ 15
+$tcp set packetSize_ 1000
 set ftp [$tcp attach-source FTP]
 
 $ns at 0.5 "$cbr0 start"
