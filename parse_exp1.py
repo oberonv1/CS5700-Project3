@@ -49,7 +49,8 @@ avg_latency = sum_latency/len(recMap)
 # TCP flow ran from 0.6 to 9.5 seconds
 # only count recieved TCP packets / second
 avg_thput = float(len(recMap)) / 8.9
+pkt_loss_rate = drops/len(dequeueMap)
 
 print(avg_latency)
 print(avg_thput)
-print(drops)
+print(pkt_loss_rate)
