@@ -1,5 +1,15 @@
 set ns [new Simulator]
 
+if { $argc == 2 } {
+    set argflow [lindex $argv 0]
+    set file [lindex $argv 1]
+} else {
+    puts "Error: Requires arguments for CBR flow rate and filename for output"
+    exit 1
+}
+
+puts "Testing $argflow CBR flowrate"
+
 # Experiment 1 setup
 #
 #        n1                 n4
@@ -12,7 +22,7 @@ set ns [new Simulator]
 #
 
 # Output tracing
-set f [open vegas_10mb_exp1.txt w]
+set f [open $file w]
 $ns trace-all $f
 
 set n1 [$ns node]
@@ -39,7 +49,7 @@ $ns attach-agent $n2 $udp0
 # Create a CBR traffic source and attach it to udp0
 set cbr0 [new Application/Traffic/CBR]
 $cbr0 set packetSize_ 1000
-$cbr0 set rate_ 10Mb
+$cbr0 set rate_ $argflow
 $cbr0 attach-agent $udp0
 
 set null0 [new Agent/Null] 
@@ -52,6 +62,8 @@ $udp0 set fid_ 0
 # A FTP over TCP/Vegas from $n1 to $n4
 set tcp [$ns create-connection TCP/Vegas $n1 TCPSink $n4 1]
 $tcp set packetSize_ 1000
+# manually tested optimal window size to take up entire 10Mb bandwidth
+$tcp set window_ 110
 set ftp [$tcp attach-source FTP]
 
 $ns at 0.5 "$cbr0 start"
@@ -65,7 +77,7 @@ proc finish {} {
         $ns flush-trace
         close $f
 
-        puts "Experiment 1 simulation completed."
+        puts "Vegas Experiment 1 simulation completed."
         exit 0
 }
 

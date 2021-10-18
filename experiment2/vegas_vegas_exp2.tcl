@@ -1,5 +1,15 @@
 set ns [new Simulator]
 
+if { $argc == 2 } {
+    set argflow [lindex $argv 0]
+    set file [lindex $argv 1]
+} else {
+    puts "Error: Requires arguments for CBR flow rate and filename for output"
+    exit 1
+}
+
+puts "Testing $argflow CBR flowrate"
+
 # Experiment 2 setup
 #
 #        n1                 n4
@@ -19,7 +29,7 @@ set n4 [$ns node]
 set n6 [$ns node]
 
 # Output tracing
-set f [open vegas_vegas_10mb_exp2.txt w]
+set f [open $file w]
 $ns trace-all $f
 
 $ns duplex-link $n1 $n2 10Mb 10ms DropTail 
@@ -39,8 +49,7 @@ $ns attach-agent $n2 $udp0
 # Create a CBR traffic source and attach it to udp0
 set cbr0 [new Application/Traffic/CBR]
 $cbr0 set packetSize_ 1000
-# leave at 1Mb/s to allow TCP flows maximum bandwidth
-$cbr0 set rate_ 10Mb
+$cbr0 set rate_ $argflow
 $cbr0 attach-agent $udp0
 
 set null0 [new Agent/Null] 
@@ -53,11 +62,15 @@ $udp0 set fid_ 0
 # A FTP over TCP/Vegas from $n1 to $n4
 set tcp1 [$ns create-connection TCP/Vegas $n1 TCPSink $n4 1]
 $tcp1 set packetSize_ 1000
+# manually tested optimal window size to take up entire 10Mb bandwidth
+$tcp1 set window_ 110
 set ftp1 [$tcp1 attach-source FTP]
 
 # A competing FTP over TCP/Vegas from $n5 to $n6
 set tcp2 [$ns create-connection TCP/Vegas $n5 TCPSink $n6 2]
 $tcp2 set packetSize_ 1000
+# manually tested optimal window size to take up entire 10Mb bandwidth
+$tcp2 set window_ 110
 set ftp2 [$tcp2 attach-source FTP]
 
 $ns at 0.5 "$cbr0 start"
@@ -73,7 +86,7 @@ proc finish {} {
         $ns flush-trace
         close $f
 
-        puts "Experiment 2 simulation completed."
+        puts "Vegas + Vegas Experiment 2 simulation completed."
         exit 0
 }
 
