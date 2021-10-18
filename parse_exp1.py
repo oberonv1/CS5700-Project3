@@ -24,6 +24,7 @@ recMap = {}
 drops = 0
 dequeueMap = {}
 
+total_dequeued = 0
 
 
 with open(args.data_file) as file:
@@ -44,12 +45,13 @@ sum_latency = 0
 for key, dequeue_time in dequeueMap.items():
     if key in recMap:
         sum_latency += float(recMap[key]) - float(dequeue_time)
+    total_dequeued += 1
 avg_latency = sum_latency/len(recMap)
 
 # TCP flow ran from 0.6 to 9.5 seconds
 # only count recieved TCP packets / second
 avg_thput = float(len(recMap)) / 8.9
-pkt_loss_rate = drops/len(dequeueMap)
+pkt_loss_rate = drops/total_dequeued
 
 print(avg_latency)
 print(avg_thput)
