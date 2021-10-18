@@ -24,22 +24,25 @@ recMap = {}
 drops = 0
 dequeueMap = {}
 
+#total dequeued from TCP source
 total_dequeued = 0
 
 
 with open(args.data_file) as file:
     contents = file.readlines()
     for line in contents:
-        event, time,from_node,to_node,pkt_typ,pkt_sze,flags,fid,src_adr,dst_adr,seq_num,pkt_id = line.split(' ')
+        vars = line.split(' ')
+        if len(vars) == 12:
+            event, time,from_node,to_node,pkt_typ,pkt_sze,flags,fid,src_adr,dst_adr,seq_num,pkt_id = vars
         if pkt_typ == 'tcp':
             # pkt_id will route through several node pairs on the way to TCP sink
-            # make map key neighboring node path + pkt_id, garaunteed unique
-            if event == 'r':
-                recMap[from_node + ":" + to_node + ":" + pkt_id] = time
-            elif event == '-':
-                dequeueMap[from_node + ":" + to_node + ":" + pkt_id] = time
-            elif event == 'd':
-                drops += 1
+            # count time from dequeue from node 0 to recieved on node 4
+            if event == 'r' and from_node == "3" and to_node == "4":
+                recMap[pkt_id] = time
+            elif event == '-' and from_node == "0" and to_node == "2":
+                dequeueMap[pkt_id] = time
+        elif event == 'd':
+            drops += 1
 
 sum_latency = 0
 for key, dequeue_time in dequeueMap.items():
@@ -48,11 +51,11 @@ for key, dequeue_time in dequeueMap.items():
     total_dequeued += 1
 avg_latency = sum_latency/len(recMap)
 
-# TCP flow ran from 0.6 to 9.5 seconds
+# TCP flow ran from 0.5 to 9.5 seconds
 # only count recieved TCP packets / second
-avg_thput = float(len(recMap)) / 8.9
+avg_thput = len(recMap) / 9.0
 pkt_loss_rate = drops/total_dequeued
 
-print(avg_latency)
-print(avg_thput)
-print(pkt_loss_rate)
+print("Average Latency (seconds): ","%.4f" % avg_latency)
+print("Average thoroughput(packets/s):","%.2f" % avg_thput)
+print("Packet Loss rate","%.2f" % pkt_loss_rate)

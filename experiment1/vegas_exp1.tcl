@@ -39,7 +39,7 @@ $ns attach-agent $n2 $udp0
 # Create a CBR traffic source and attach it to udp0
 set cbr0 [new Application/Traffic/CBR]
 $cbr0 set packetSize_ 1000
-$cbr0 set rate_ 10MB
+$cbr0 set rate_ 10Mb
 $cbr0 attach-agent $udp0
 
 set null0 [new Agent/Null] 

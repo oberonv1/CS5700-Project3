@@ -41,7 +41,7 @@ $ns attach-agent $n2 $udp0
 # Create a CBR traffic source and attach it to udp0
 set cbr0 [new Application/Traffic/CBR]
 $cbr0 set packetSize_ 1000
-$cbr0 set rate_ 10MB
+$cbr0 set rate_ 10Mb
 $cbr0 attach-agent $udp0
 
 set null0 [new Agent/Null] 
@@ -56,8 +56,8 @@ set tcp [$ns create-connection TCP $n1 TCPSink $n4 1]
 $tcp set packetSize_ 1000
 set ftp [$tcp attach-source FTP]
 
-$ns at 0.5 "$cbr0 start"
-$ns at 0.6 "$ftp start"
+$ns at 0.4 "$cbr0 start"
+$ns at 0.5 "$ftp start"
 $ns at 9.4 "$ftp stop"
 $ns at 9.5 "$cbr0 stop"
 $ns at 10.0 "finish"
