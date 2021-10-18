@@ -41,7 +41,7 @@ with open(args.data_file) as file:
                 recMap[pkt_id] = time
             elif event == '-' and from_node == "0" and to_node == "2":
                 dequeueMap[pkt_id] = time
-        elif event == 'd':
+        if event == 'd': # packet could be dropped at tcp or cbr flows
             drops += 1
 
 sum_latency = 0
@@ -49,13 +49,13 @@ for key, dequeue_time in dequeueMap.items():
     if key in recMap:
         sum_latency += float(recMap[key]) - float(dequeue_time)
     total_dequeued += 1
-avg_latency = sum_latency/len(recMap)
+avg_latency = sum_latency/len(recMap) if len(recMap) != 0 else 0
 
 # TCP flow ran from 0.5 to 9.5 seconds
 # only count recieved TCP packets / second
 avg_thput = len(recMap) / 9.0
 pkt_loss_rate = drops/total_dequeued
 
-print("Average Latency (seconds): ","%.4f" % avg_latency)
-print("Average thoroughput(packets/s):","%.2f" % avg_thput)
-print("Packet Loss rate","%.2f" % pkt_loss_rate)
+print("Average Latency (seconds): ","%.5f" % avg_latency)
+print("Average Thoroughput(packets/s):","%.2f" % avg_thput)
+print("Packet Loss Rate:","%.2f" % pkt_loss_rate)

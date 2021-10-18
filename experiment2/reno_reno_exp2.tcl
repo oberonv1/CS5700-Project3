@@ -19,7 +19,7 @@ set n4 [$ns node]
 set n6 [$ns node]
 
 # Output tracing
-set f [open reno_reno_exp2_out.txt w]
+set f [open reno_reno_10mb_exp2.txt w]
 $ns trace-all $f
 
 $ns duplex-link $n1 $n2 10Mb 10ms DropTail 
@@ -39,8 +39,8 @@ $ns attach-agent $n2 $udp0
 # Create a CBR traffic source and attach it to udp0
 set cbr0 [new Application/Traffic/CBR]
 $cbr0 set packetSize_ 1000
-# leave at 1MB/s to allow TCP flows maximum bandwidth
-$cbr0 set rate_ 1MB
+# leave at 1Mb/s to allow TCP flows maximum bandwidth
+$cbr0 set rate_ 10Mb
 $cbr0 attach-agent $udp0
 
 set null0 [new Agent/Null] 
