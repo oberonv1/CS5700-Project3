@@ -1,0 +1,244 @@
+########## tahoe ##########
+tahoe_1mb_exp1
+Average Latency (seconds): 0.06111
+Average Thoroughput(packets/s):1017.222
+Packet Loss Rate:0.000
+
+
+tahoe_2mb_exp1
+Average Latency (seconds): 0.04762
+Average Thoroughput(packets/s):686.444
+Packet Loss Rate:0.004
+
+
+tahoe_3mb_exp1
+Average Latency (seconds): 0.04815
+Average Thoroughput(packets/s):635.889
+Packet Loss Rate:0.005
+
+
+tahoe_4mb_exp1
+Average Latency (seconds): 0.04883
+Average Thoroughput(packets/s):512.333
+Packet Loss Rate:0.007
+
+
+tahoe_5mb_exp1
+Average Latency (seconds): 0.04971
+Average Thoroughput(packets/s):448.889
+Packet Loss Rate:0.013
+
+
+tahoe_6mb_exp1
+Average Latency (seconds): 0.04864
+Average Thoroughput(packets/s):340.222
+Packet Loss Rate:0.022
+
+
+tahoe_7mb_exp1
+Average Latency (seconds): 0.05024
+Average Thoroughput(packets/s):269.444
+Packet Loss Rate:0.037
+
+
+tahoe_8mb_exp1
+Average Latency (seconds): 0.04983
+Average Thoroughput(packets/s):184.111
+Packet Loss Rate:0.053
+
+
+tahoe_9mb_exp1
+Average Latency (seconds): 0.05089
+Average Thoroughput(packets/s):109.667
+Packet Loss Rate:0.082
+
+
+tahoe_10mb_exp1
+Average Latency (seconds): 0.06000
+Average Thoroughput(packets/s):16.444
+Packet Loss Rate:0.900
+
+
+########## reno ##########
+reno_1mb_exp1
+Average Latency (seconds): 0.06111
+Average Thoroughput(packets/s):1005.111
+Packet Loss Rate:0.000
+
+
+reno_2mb_exp1
+Average Latency (seconds): 0.04719
+Average Thoroughput(packets/s):603.333
+Packet Loss Rate:0.003
+
+
+reno_3mb_exp1
+Average Latency (seconds): 0.04660
+Average Thoroughput(packets/s):545.778
+Packet Loss Rate:0.005
+
+
+reno_4mb_exp1
+Average Latency (seconds): 0.04671
+Average Thoroughput(packets/s):415.889
+Packet Loss Rate:0.007
+
+
+reno_5mb_exp1
+Average Latency (seconds): 0.04696
+Average Thoroughput(packets/s):373.889
+Packet Loss Rate:0.013
+
+
+reno_6mb_exp1
+Average Latency (seconds): 0.04838
+Average Thoroughput(packets/s):377.111
+Packet Loss Rate:0.018
+
+
+reno_7mb_exp1
+Average Latency (seconds): 0.04863
+Average Thoroughput(packets/s):232.556
+Packet Loss Rate:0.033
+
+
+reno_8mb_exp1
+Average Latency (seconds): 0.04964
+Average Thoroughput(packets/s):193.000
+Packet Loss Rate:0.050
+
+
+reno_9mb_exp1
+Average Latency (seconds): 0.05170
+Average Thoroughput(packets/s):99.667
+Packet Loss Rate:0.096
+
+
+reno_10mb_exp1
+Average Latency (seconds): 0.05765
+Average Thoroughput(packets/s):6.667
+Packet Loss Rate:0.699
+
+
+########## new_reno ##########
+new_reno_1mb_exp1
+Average Latency (seconds): 0.06111
+Average Thoroughput(packets/s):1005.111
+Packet Loss Rate:0.000
+
+
+new_reno_2mb_exp1
+Average Latency (seconds): 0.04760
+Average Thoroughput(packets/s):610.444
+Packet Loss Rate:0.003
+
+
+new_reno_3mb_exp1
+Average Latency (seconds): 0.04684
+Average Thoroughput(packets/s):556.444
+Packet Loss Rate:0.006
+
+
+new_reno_4mb_exp1
+Average Latency (seconds): 0.04661
+Average Thoroughput(packets/s):510.222
+Packet Loss Rate:0.006
+
+
+new_reno_5mb_exp1
+Average Latency (seconds): 0.05002
+Average Thoroughput(packets/s):456.333
+Packet Loss Rate:0.018
+
+
+new_reno_6mb_exp1
+Average Latency (seconds): 0.04868
+Average Thoroughput(packets/s):385.556
+Packet Loss Rate:0.017
+
+
+new_reno_7mb_exp1
+Average Latency (seconds): 0.04924
+Average Thoroughput(packets/s):302.444
+Packet Loss Rate:0.030
+
+
+new_reno_8mb_exp1
+Average Latency (seconds): 0.05005
+Average Thoroughput(packets/s):210.667
+Packet Loss Rate:0.050
+
+
+new_reno_9mb_exp1
+Average Latency (seconds): 0.05188
+Average Thoroughput(packets/s):117.000
+Packet Loss Rate:0.085
+
+
+new_reno_10mb_exp1
+Average Latency (seconds): 0.05920
+Average Thoroughput(packets/s):10.889
+Packet Loss Rate:0.824
+
+
+########## vegas ##########
+vegas_1mb_exp1
+Average Latency (seconds): 0.04289
+Average Thoroughput(packets/s):753.667
+Packet Loss Rate:0.000
+
+
+vegas_2mb_exp1
+Average Latency (seconds): 0.04307
+Average Thoroughput(packets/s):624.000
+Packet Loss Rate:0.000
+
+
+vegas_3mb_exp1
+Average Latency (seconds): 0.04439
+Average Thoroughput(packets/s):630.778
+Packet Loss Rate:0.000
+
+
+vegas_4mb_exp1
+Average Latency (seconds): 0.04427
+Average Thoroughput(packets/s):567.111
+Packet Loss Rate:0.000
+
+
+vegas_5mb_exp1
+Average Latency (seconds): 0.04394
+Average Thoroughput(packets/s):455.667
+Packet Loss Rate:0.000
+
+
+vegas_6mb_exp1
+Average Latency (seconds): 0.04666
+Average Thoroughput(packets/s):419.444
+Packet Loss Rate:0.000
+
+
+vegas_7mb_exp1
+Average Latency (seconds): 0.04502
+Average Thoroughput(packets/s):328.889
+Packet Loss Rate:0.000
+
+
+vegas_8mb_exp1
+Average Latency (seconds): 0.05069
+Average Thoroughput(packets/s):232.222
+Packet Loss Rate:0.000
+
+
+vegas_9mb_exp1
+Average Latency (seconds): 0.05585
+Average Thoroughput(packets/s):122.889
+Packet Loss Rate:0.031
+
+
+vegas_10mb_exp1
+Average Latency (seconds): 0.05229
+Average Thoroughput(packets/s):2.667
+Packet Loss Rate:0.478
+
+

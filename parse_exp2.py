@@ -14,7 +14,7 @@ d: drop
 
 import argparse
 
-def get_metrics(input_file):
+def get_metrics2(input_file):
     # to calculate average latency
     recMap1 = {}
     recMap2 = {}
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     (avg_latency, avg_thput, pkt_loss_rate,
-        avg_latency2,avg_thput2,pkt_loss_rate2) = get_metrics(args.data_file)
+        avg_latency2,avg_thput2,pkt_loss_rate2) = get_metrics2(args.data_file)
 
     print("Average Latency for TCP flow 1: ","%.5f" % avg_latency)
     print("Average Thoroughput for TCP flow 1 (packets/s):","%.2f" % avg_thput)
