@@ -11,6 +11,14 @@ d: drop
 
 
 '''
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("data_file", type=str, help="Output file from ns simulation")
+
+args = parser.parse_args()
+
 # to calculate average latency
 recMap = {}
 drops = 0
@@ -18,7 +26,7 @@ dequeueMap = {}
 
 
 
-with open('experiment1/tahoe_1mb_exp1.txt') as file:
+with open(args.data_file) as file:
     contents = file.readlines()
     for line in contents:
         event, time,from_node,to_node,pkt_typ,pkt_sze,flags,fid,src_adr,dst_adr,seq_num,pkt_id = line.split(' ')
