@@ -1,0 +1,324 @@
+########## reversed reno_reno ##########
+Average Latency for TCP/Reno: 0.04718
+Average Thoroughput for TCP/Reno (packets/s): 400.44
+Packet Loss Rate for TCP/Reno: 0.002
+Average Latency for TCP/Newreno (seconds): 0.04596
+Average Thoroughput for TCP/Newreno (packets/s): 306.889
+Packet Loss Rate for TCP/Newreno: 0.003
+
+
+Average Latency for TCP/Reno: 0.04773
+Average Thoroughput for TCP/Reno (packets/s): 417.33
+Packet Loss Rate for TCP/Reno: 0.005
+Average Latency for TCP/Newreno (seconds): 0.04849
+Average Thoroughput for TCP/Newreno (packets/s): 251.111
+Packet Loss Rate for TCP/Newreno: 0.004
+
+
+Average Latency for TCP/Reno: 0.04924
+Average Thoroughput for TCP/Reno (packets/s): 346.44
+Packet Loss Rate for TCP/Reno: 0.007
+Average Latency for TCP/Newreno (seconds): 0.04879
+Average Thoroughput for TCP/Newreno (packets/s): 250.333
+Packet Loss Rate for TCP/Newreno: 0.002
+
+
+Average Latency for TCP/Reno: 0.04827
+Average Thoroughput for TCP/Reno (packets/s): 233.89
+Packet Loss Rate for TCP/Reno: 0.012
+Average Latency for TCP/Newreno (seconds): 0.04725
+Average Thoroughput for TCP/Newreno (packets/s): 268.222
+Packet Loss Rate for TCP/Newreno: 0.002
+
+
+Average Latency for TCP/Reno: 0.05115
+Average Thoroughput for TCP/Reno (packets/s): 226.22
+Packet Loss Rate for TCP/Reno: 0.014
+Average Latency for TCP/Newreno (seconds): 0.04977
+Average Thoroughput for TCP/Newreno (packets/s): 248.556
+Packet Loss Rate for TCP/Newreno: 0.003
+
+
+Average Latency for TCP/Reno: 0.05011
+Average Thoroughput for TCP/Reno (packets/s): 143.33
+Packet Loss Rate for TCP/Reno: 0.026
+Average Latency for TCP/Newreno (seconds): 0.04969
+Average Thoroughput for TCP/Newreno (packets/s): 232.667
+Packet Loss Rate for TCP/Newreno: 0.016
+
+
+Average Latency for TCP/Reno: 0.04996
+Average Thoroughput for TCP/Reno (packets/s): 118.22
+Packet Loss Rate for TCP/Reno: 0.036
+Average Latency for TCP/Newreno (seconds): 0.04994
+Average Thoroughput for TCP/Newreno (packets/s): 148.444
+Packet Loss Rate for TCP/Newreno: 0.032
+
+
+Average Latency for TCP/Reno: 0.05363
+Average Thoroughput for TCP/Reno (packets/s): 112.11
+Packet Loss Rate for TCP/Reno: 0.039
+Average Latency for TCP/Newreno (seconds): 0.05398
+Average Thoroughput for TCP/Newreno (packets/s): 108.778
+Packet Loss Rate for TCP/Newreno: 0.040
+
+
+Average Latency for TCP/Reno: 0.05374
+Average Thoroughput for TCP/Reno (packets/s): 48.56
+Packet Loss Rate for TCP/Reno: 0.074
+Average Latency for TCP/Newreno (seconds): 0.05314
+Average Thoroughput for TCP/Newreno (packets/s): 70.778
+Packet Loss Rate for TCP/Newreno: 0.033
+
+
+Average Latency for TCP/Reno: 0.05734
+Average Thoroughput for TCP/Reno (packets/s): 6.22
+Packet Loss Rate for TCP/Reno: 0.222
+Average Latency for TCP/Newreno (seconds): 0.06140
+Average Thoroughput for TCP/Newreno (packets/s): 1.778
+Packet Loss Rate for TCP/Newreno: 0.407
+
+
+########## reversed new_reno_reno ##########
+Average Latency for TCP/Reno: 0.04663
+Average Thoroughput for TCP/Reno (packets/s): 409.89
+Packet Loss Rate for TCP/Reno: 0.002
+Average Latency for TCP/Reno (seconds): 0.04625
+Average Thoroughput for TCP/Reno (packets/s): 297.000
+Packet Loss Rate for TCP/Reno: 0.003
+
+
+Average Latency for TCP/Reno: 0.04796
+Average Thoroughput for TCP/Reno (packets/s): 437.11
+Packet Loss Rate for TCP/Reno: 0.004
+Average Latency for TCP/Reno (seconds): 0.04862
+Average Thoroughput for TCP/Reno (packets/s): 195.889
+Packet Loss Rate for TCP/Reno: 0.006
+
+
+Average Latency for TCP/Reno: 0.04885
+Average Thoroughput for TCP/Reno (packets/s): 375.44
+Packet Loss Rate for TCP/Reno: 0.006
+Average Latency for TCP/Reno (seconds): 0.04828
+Average Thoroughput for TCP/Reno (packets/s): 216.222
+Packet Loss Rate for TCP/Reno: 0.003
+
+
+Average Latency for TCP/Reno: 0.04750
+Average Thoroughput for TCP/Reno (packets/s): 246.00
+Packet Loss Rate for TCP/Reno: 0.012
+Average Latency for TCP/Reno (seconds): 0.04656
+Average Thoroughput for TCP/Reno (packets/s): 210.111
+Packet Loss Rate for TCP/Reno: 0.002
+
+
+Average Latency for TCP/Reno: 0.04892
+Average Thoroughput for TCP/Reno (packets/s): 283.00
+Packet Loss Rate for TCP/Reno: 0.010
+Average Latency for TCP/Reno (seconds): 0.04897
+Average Thoroughput for TCP/Reno (packets/s): 147.333
+Packet Loss Rate for TCP/Reno: 0.005
+
+
+Average Latency for TCP/Reno: 0.05011
+Average Thoroughput for TCP/Reno (packets/s): 179.44
+Packet Loss Rate for TCP/Reno: 0.021
+Average Latency for TCP/Reno (seconds): 0.05029
+Average Thoroughput for TCP/Reno (packets/s): 179.667
+Packet Loss Rate for TCP/Reno: 0.020
+
+
+Average Latency for TCP/Reno: 0.04925
+Average Thoroughput for TCP/Reno (packets/s): 129.67
+Packet Loss Rate for TCP/Reno: 0.032
+Average Latency for TCP/Reno (seconds): 0.04995
+Average Thoroughput for TCP/Reno (packets/s): 103.444
+Packet Loss Rate for TCP/Reno: 0.043
+
+
+Average Latency for TCP/Reno: 0.05195
+Average Thoroughput for TCP/Reno (packets/s): 110.44
+Packet Loss Rate for TCP/Reno: 0.040
+Average Latency for TCP/Reno (seconds): 0.05275
+Average Thoroughput for TCP/Reno (packets/s): 103.778
+Packet Loss Rate for TCP/Reno: 0.040
+
+
+Average Latency for TCP/Reno: 0.05289
+Average Thoroughput for TCP/Reno (packets/s): 54.78
+Packet Loss Rate for TCP/Reno: 0.072
+Average Latency for TCP/Reno (seconds): 0.05325
+Average Thoroughput for TCP/Reno (packets/s): 51.889
+Packet Loss Rate for TCP/Reno: 0.047
+
+
+Average Latency for TCP/Reno: 0.05734
+Average Thoroughput for TCP/Reno (packets/s): 6.22
+Packet Loss Rate for TCP/Reno: 0.222
+Average Latency for TCP/Reno (seconds): 0.06124
+Average Thoroughput for TCP/Reno (packets/s): 0.889
+Packet Loss Rate for TCP/Reno: 0.467
+
+
+########## reversed new_reno_vegas ##########
+Average Latency for TCP/Vegas: 0.04711
+Average Thoroughput for TCP/Vegas (packets/s): 52.00
+Packet Loss Rate for TCP/Vegas: 0.029
+Average Latency for TCP/Newreno (seconds): 0.04525
+Average Thoroughput for TCP/Newreno (packets/s): 588.222
+Packet Loss Rate for TCP/Newreno: 0.003
+
+
+Average Latency for TCP/Vegas: 0.04807
+Average Thoroughput for TCP/Vegas (packets/s): 261.89
+Packet Loss Rate for TCP/Vegas: 0.002
+Average Latency for TCP/Newreno (seconds): 0.05034
+Average Thoroughput for TCP/Newreno (packets/s): 454.556
+Packet Loss Rate for TCP/Newreno: 0.004
+
+
+Average Latency for TCP/Vegas: 0.04686
+Average Thoroughput for TCP/Vegas (packets/s): 34.67
+Packet Loss Rate for TCP/Vegas: 0.025
+Average Latency for TCP/Newreno (seconds): 0.04699
+Average Thoroughput for TCP/Newreno (packets/s): 495.333
+Packet Loss Rate for TCP/Newreno: 0.004
+
+
+Average Latency for TCP/Vegas: 0.04662
+Average Thoroughput for TCP/Vegas (packets/s): 43.22
+Packet Loss Rate for TCP/Vegas: 0.032
+Average Latency for TCP/Newreno (seconds): 0.04667
+Average Thoroughput for TCP/Newreno (packets/s): 442.667
+Packet Loss Rate for TCP/Newreno: 0.006
+
+
+Average Latency for TCP/Vegas: 0.04983
+Average Thoroughput for TCP/Vegas (packets/s): 167.44
+Packet Loss Rate for TCP/Vegas: 0.007
+Average Latency for TCP/Newreno (seconds): 0.05047
+Average Thoroughput for TCP/Newreno (packets/s): 301.333
+Packet Loss Rate for TCP/Newreno: 0.012
+
+
+Average Latency for TCP/Vegas: 0.04997
+Average Thoroughput for TCP/Vegas (packets/s): 140.44
+Packet Loss Rate for TCP/Vegas: 0.007
+Average Latency for TCP/Newreno (seconds): 0.05111
+Average Thoroughput for TCP/Newreno (packets/s): 251.778
+Packet Loss Rate for TCP/Newreno: 0.012
+
+
+Average Latency for TCP/Vegas: 0.05126
+Average Thoroughput for TCP/Vegas (packets/s): 153.56
+Packet Loss Rate for TCP/Vegas: 0.004
+Average Latency for TCP/Newreno (seconds): 0.05197
+Average Thoroughput for TCP/Newreno (packets/s): 158.444
+Packet Loss Rate for TCP/Newreno: 0.018
+
+
+Average Latency for TCP/Vegas: 0.05291
+Average Thoroughput for TCP/Vegas (packets/s): 98.89
+Packet Loss Rate for TCP/Vegas: 0.007
+Average Latency for TCP/Newreno (seconds): 0.05319
+Average Thoroughput for TCP/Newreno (packets/s): 120.667
+Packet Loss Rate for TCP/Newreno: 0.028
+
+
+Average Latency for TCP/Vegas: 0.05102
+Average Thoroughput for TCP/Vegas (packets/s): 35.00
+Packet Loss Rate for TCP/Vegas: 0.045
+Average Latency for TCP/Newreno (seconds): 0.05264
+Average Thoroughput for TCP/Newreno (packets/s): 79.333
+Packet Loss Rate for TCP/Newreno: 0.035
+
+
+Average Latency for TCP/Vegas: 0.05582
+Average Thoroughput for TCP/Vegas (packets/s): 4.22
+Packet Loss Rate for TCP/Vegas: 0.387
+Average Latency for TCP/Newreno (seconds): 0.06130
+Average Thoroughput for TCP/Newreno (packets/s): 5.333
+Packet Loss Rate for TCP/Newreno: 0.262
+
+
+########## reversed vegas_vegas ##########
+Average Latency for TCP/Vegas: 0.04542
+Average Thoroughput for TCP/Vegas (packets/s): 458.00
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04554
+Average Thoroughput for TCP/Vegas (packets/s): 494.778
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.04538
+Average Thoroughput for TCP/Vegas (packets/s): 331.33
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04545
+Average Thoroughput for TCP/Vegas (packets/s): 442.111
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.04503
+Average Thoroughput for TCP/Vegas (packets/s): 340.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04508
+Average Thoroughput for TCP/Vegas (packets/s): 378.222
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.04494
+Average Thoroughput for TCP/Vegas (packets/s): 295.89
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04489
+Average Thoroughput for TCP/Vegas (packets/s): 335.222
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.04596
+Average Thoroughput for TCP/Vegas (packets/s): 284.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04599
+Average Thoroughput for TCP/Vegas (packets/s): 257.111
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.04888
+Average Thoroughput for TCP/Vegas (packets/s): 229.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04925
+Average Thoroughput for TCP/Vegas (packets/s): 214.222
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.05056
+Average Thoroughput for TCP/Vegas (packets/s): 197.78
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.05111
+Average Thoroughput for TCP/Vegas (packets/s): 142.667
+Packet Loss Rate for TCP/Vegas: 0.001
+
+
+Average Latency for TCP/Vegas: 0.05987
+Average Thoroughput for TCP/Vegas (packets/s): 178.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.06057
+Average Thoroughput for TCP/Vegas (packets/s): 85.667
+Packet Loss Rate for TCP/Vegas: 0.000
+
+
+Average Latency for TCP/Vegas: 0.05839
+Average Thoroughput for TCP/Vegas (packets/s): 44.56
+Packet Loss Rate for TCP/Vegas: 0.031
+Average Latency for TCP/Vegas (seconds): 0.05935
+Average Thoroughput for TCP/Vegas (packets/s): 114.556
+Packet Loss Rate for TCP/Vegas: 0.001
+
+
+Average Latency for TCP/Vegas: 0.05185
+Average Thoroughput for TCP/Vegas (packets/s): 2.44
+Packet Loss Rate for TCP/Vegas: 0.500
+Average Latency for TCP/Vegas (seconds): 0.05695
+Average Thoroughput for TCP/Vegas (packets/s): 0.222
+Packet Loss Rate for TCP/Vegas: 0.867
+
+

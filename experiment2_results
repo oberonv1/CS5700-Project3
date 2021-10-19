@@ -1,324 +1,324 @@
 ########## reno_reno ##########
-Average Latency for TCP flow 1: 0.04663
-Average Thoroughput for TCP flow 1 (packets/s):409.89
-Packet Loss Rate for TCP flow1:0.002
-Average Latency for TCP flow 2 (seconds): 0.04625
-Average Thoroughput for TCP flow 2 (packets/s):297.000
-Packet Loss Rate for TCP flow 2:0.003
+Average Latency for TCP/Newreno: 0.04713
+Average Thoroughput for TCP/Newreno (packets/s): 484.00
+Packet Loss Rate for TCP/Newreno: 0.002
+Average Latency for TCP/Reno (seconds): 0.04785
+Average Thoroughput for TCP/Reno (packets/s): 271.000
+Packet Loss Rate for TCP/Reno: 0.003
 
 
-Average Latency for TCP flow 1: 0.04796
-Average Thoroughput for TCP flow 1 (packets/s):437.11
-Packet Loss Rate for TCP flow1:0.004
-Average Latency for TCP flow 2 (seconds): 0.04862
-Average Thoroughput for TCP flow 2 (packets/s):195.889
-Packet Loss Rate for TCP flow 2:0.006
+Average Latency for TCP/Newreno: 0.04787
+Average Thoroughput for TCP/Newreno (packets/s): 448.89
+Packet Loss Rate for TCP/Newreno: 0.004
+Average Latency for TCP/Reno (seconds): 0.04884
+Average Thoroughput for TCP/Reno (packets/s): 193.556
+Packet Loss Rate for TCP/Reno: 0.006
 
 
-Average Latency for TCP flow 1: 0.04885
-Average Thoroughput for TCP flow 1 (packets/s):375.44
-Packet Loss Rate for TCP flow1:0.006
-Average Latency for TCP flow 2 (seconds): 0.04828
-Average Thoroughput for TCP flow 2 (packets/s):216.222
-Packet Loss Rate for TCP flow 2:0.003
+Average Latency for TCP/Newreno: 0.04825
+Average Thoroughput for TCP/Newreno (packets/s): 401.78
+Packet Loss Rate for TCP/Newreno: 0.006
+Average Latency for TCP/Reno (seconds): 0.04905
+Average Thoroughput for TCP/Reno (packets/s): 241.778
+Packet Loss Rate for TCP/Reno: 0.002
 
 
-Average Latency for TCP flow 1: 0.04750
-Average Thoroughput for TCP flow 1 (packets/s):246.00
-Packet Loss Rate for TCP flow1:0.012
-Average Latency for TCP flow 2 (seconds): 0.04656
-Average Thoroughput for TCP flow 2 (packets/s):210.111
-Packet Loss Rate for TCP flow 2:0.002
+Average Latency for TCP/Newreno: 0.04794
+Average Thoroughput for TCP/Newreno (packets/s): 338.67
+Packet Loss Rate for TCP/Newreno: 0.008
+Average Latency for TCP/Reno (seconds): 0.04858
+Average Thoroughput for TCP/Reno (packets/s): 178.000
+Packet Loss Rate for TCP/Reno: 0.004
 
 
-Average Latency for TCP flow 1: 0.04892
-Average Thoroughput for TCP flow 1 (packets/s):283.00
-Packet Loss Rate for TCP flow1:0.010
-Average Latency for TCP flow 2 (seconds): 0.04897
-Average Thoroughput for TCP flow 2 (packets/s):147.333
-Packet Loss Rate for TCP flow 2:0.005
+Average Latency for TCP/Newreno: 0.04976
+Average Thoroughput for TCP/Newreno (packets/s): 312.22
+Packet Loss Rate for TCP/Newreno: 0.010
+Average Latency for TCP/Reno (seconds): 0.05057
+Average Thoroughput for TCP/Reno (packets/s): 157.778
+Packet Loss Rate for TCP/Reno: 0.006
 
 
-Average Latency for TCP flow 1: 0.05011
-Average Thoroughput for TCP flow 1 (packets/s):179.44
-Packet Loss Rate for TCP flow1:0.021
-Average Latency for TCP flow 2 (seconds): 0.05029
-Average Thoroughput for TCP flow 2 (packets/s):179.667
-Packet Loss Rate for TCP flow 2:0.020
+Average Latency for TCP/Newreno: 0.04974
+Average Thoroughput for TCP/Newreno (packets/s): 287.00
+Packet Loss Rate for TCP/Newreno: 0.013
+Average Latency for TCP/Reno (seconds): 0.05226
+Average Thoroughput for TCP/Reno (packets/s): 109.667
+Packet Loss Rate for TCP/Reno: 0.045
 
 
-Average Latency for TCP flow 1: 0.04925
-Average Thoroughput for TCP flow 1 (packets/s):129.67
-Packet Loss Rate for TCP flow1:0.032
-Average Latency for TCP flow 2 (seconds): 0.04995
-Average Thoroughput for TCP flow 2 (packets/s):103.444
-Packet Loss Rate for TCP flow 2:0.043
+Average Latency for TCP/Newreno: 0.04980
+Average Thoroughput for TCP/Newreno (packets/s): 170.44
+Packet Loss Rate for TCP/Newreno: 0.030
+Average Latency for TCP/Reno (seconds): 0.05108
+Average Thoroughput for TCP/Reno (packets/s): 114.333
+Packet Loss Rate for TCP/Reno: 0.039
 
 
-Average Latency for TCP flow 1: 0.05195
-Average Thoroughput for TCP flow 1 (packets/s):110.44
-Packet Loss Rate for TCP flow1:0.040
-Average Latency for TCP flow 2 (seconds): 0.05275
-Average Thoroughput for TCP flow 2 (packets/s):103.778
-Packet Loss Rate for TCP flow 2:0.040
+Average Latency for TCP/Newreno: 0.05459
+Average Thoroughput for TCP/Newreno (packets/s): 119.89
+Packet Loss Rate for TCP/Newreno: 0.044
+Average Latency for TCP/Reno (seconds): 0.05596
+Average Thoroughput for TCP/Reno (packets/s): 120.778
+Packet Loss Rate for TCP/Reno: 0.027
 
 
-Average Latency for TCP flow 1: 0.05289
-Average Thoroughput for TCP flow 1 (packets/s):54.78
-Packet Loss Rate for TCP flow1:0.072
-Average Latency for TCP flow 2 (seconds): 0.05325
-Average Thoroughput for TCP flow 2 (packets/s):51.889
-Packet Loss Rate for TCP flow 2:0.047
+Average Latency for TCP/Newreno: 0.05351
+Average Thoroughput for TCP/Newreno (packets/s): 68.78
+Packet Loss Rate for TCP/Newreno: 0.062
+Average Latency for TCP/Reno (seconds): 0.05581
+Average Thoroughput for TCP/Reno (packets/s): 50.222
+Packet Loss Rate for TCP/Reno: 0.038
 
 
-Average Latency for TCP flow 1: 0.05734
-Average Thoroughput for TCP flow 1 (packets/s):6.22
-Packet Loss Rate for TCP flow1:0.222
-Average Latency for TCP flow 2 (seconds): 0.06124
-Average Thoroughput for TCP flow 2 (packets/s):0.889
-Packet Loss Rate for TCP flow 2:0.467
+Average Latency for TCP/Newreno: 0.05835
+Average Thoroughput for TCP/Newreno (packets/s): 8.11
+Packet Loss Rate for TCP/Newreno: 0.198
+Average Latency for TCP/Reno (seconds): 0.06149
+Average Thoroughput for TCP/Reno (packets/s): 2.778
+Packet Loss Rate for TCP/Reno: 0.375
 
 
 ########## new_reno_reno ##########
-Average Latency for TCP flow 1: 0.04713
-Average Thoroughput for TCP flow 1 (packets/s):484.00
-Packet Loss Rate for TCP flow1:0.002
-Average Latency for TCP flow 2 (seconds): 0.04785
-Average Thoroughput for TCP flow 2 (packets/s):271.000
-Packet Loss Rate for TCP flow 2:0.003
+Average Latency for TCP/Reno: 0.04663
+Average Thoroughput for TCP/Reno (packets/s): 409.89
+Packet Loss Rate for TCP/Reno: 0.002
+Average Latency for TCP/Reno (seconds): 0.04625
+Average Thoroughput for TCP/Reno (packets/s): 297.000
+Packet Loss Rate for TCP/Reno: 0.003
 
 
-Average Latency for TCP flow 1: 0.04787
-Average Thoroughput for TCP flow 1 (packets/s):448.89
-Packet Loss Rate for TCP flow1:0.004
-Average Latency for TCP flow 2 (seconds): 0.04884
-Average Thoroughput for TCP flow 2 (packets/s):193.556
-Packet Loss Rate for TCP flow 2:0.006
+Average Latency for TCP/Reno: 0.04796
+Average Thoroughput for TCP/Reno (packets/s): 437.11
+Packet Loss Rate for TCP/Reno: 0.004
+Average Latency for TCP/Reno (seconds): 0.04862
+Average Thoroughput for TCP/Reno (packets/s): 195.889
+Packet Loss Rate for TCP/Reno: 0.006
 
 
-Average Latency for TCP flow 1: 0.04825
-Average Thoroughput for TCP flow 1 (packets/s):401.78
-Packet Loss Rate for TCP flow1:0.006
-Average Latency for TCP flow 2 (seconds): 0.04905
-Average Thoroughput for TCP flow 2 (packets/s):241.778
-Packet Loss Rate for TCP flow 2:0.002
+Average Latency for TCP/Reno: 0.04885
+Average Thoroughput for TCP/Reno (packets/s): 375.44
+Packet Loss Rate for TCP/Reno: 0.006
+Average Latency for TCP/Reno (seconds): 0.04828
+Average Thoroughput for TCP/Reno (packets/s): 216.222
+Packet Loss Rate for TCP/Reno: 0.003
 
 
-Average Latency for TCP flow 1: 0.04794
-Average Thoroughput for TCP flow 1 (packets/s):338.67
-Packet Loss Rate for TCP flow1:0.008
-Average Latency for TCP flow 2 (seconds): 0.04858
-Average Thoroughput for TCP flow 2 (packets/s):178.000
-Packet Loss Rate for TCP flow 2:0.004
+Average Latency for TCP/Reno: 0.04750
+Average Thoroughput for TCP/Reno (packets/s): 246.00
+Packet Loss Rate for TCP/Reno: 0.012
+Average Latency for TCP/Reno (seconds): 0.04656
+Average Thoroughput for TCP/Reno (packets/s): 210.111
+Packet Loss Rate for TCP/Reno: 0.002
 
 
-Average Latency for TCP flow 1: 0.04976
-Average Thoroughput for TCP flow 1 (packets/s):312.22
-Packet Loss Rate for TCP flow1:0.010
-Average Latency for TCP flow 2 (seconds): 0.05057
-Average Thoroughput for TCP flow 2 (packets/s):157.778
-Packet Loss Rate for TCP flow 2:0.006
+Average Latency for TCP/Reno: 0.04892
+Average Thoroughput for TCP/Reno (packets/s): 283.00
+Packet Loss Rate for TCP/Reno: 0.010
+Average Latency for TCP/Reno (seconds): 0.04897
+Average Thoroughput for TCP/Reno (packets/s): 147.333
+Packet Loss Rate for TCP/Reno: 0.005
 
 
-Average Latency for TCP flow 1: 0.04974
-Average Thoroughput for TCP flow 1 (packets/s):287.00
-Packet Loss Rate for TCP flow1:0.013
-Average Latency for TCP flow 2 (seconds): 0.05226
-Average Thoroughput for TCP flow 2 (packets/s):109.667
-Packet Loss Rate for TCP flow 2:0.045
+Average Latency for TCP/Reno: 0.05011
+Average Thoroughput for TCP/Reno (packets/s): 179.44
+Packet Loss Rate for TCP/Reno: 0.021
+Average Latency for TCP/Reno (seconds): 0.05029
+Average Thoroughput for TCP/Reno (packets/s): 179.667
+Packet Loss Rate for TCP/Reno: 0.020
 
 
-Average Latency for TCP flow 1: 0.04980
-Average Thoroughput for TCP flow 1 (packets/s):170.44
-Packet Loss Rate for TCP flow1:0.030
-Average Latency for TCP flow 2 (seconds): 0.05108
-Average Thoroughput for TCP flow 2 (packets/s):114.333
-Packet Loss Rate for TCP flow 2:0.039
+Average Latency for TCP/Reno: 0.04925
+Average Thoroughput for TCP/Reno (packets/s): 129.67
+Packet Loss Rate for TCP/Reno: 0.032
+Average Latency for TCP/Reno (seconds): 0.04995
+Average Thoroughput for TCP/Reno (packets/s): 103.444
+Packet Loss Rate for TCP/Reno: 0.043
 
 
-Average Latency for TCP flow 1: 0.05459
-Average Thoroughput for TCP flow 1 (packets/s):119.89
-Packet Loss Rate for TCP flow1:0.044
-Average Latency for TCP flow 2 (seconds): 0.05596
-Average Thoroughput for TCP flow 2 (packets/s):120.778
-Packet Loss Rate for TCP flow 2:0.027
+Average Latency for TCP/Reno: 0.05195
+Average Thoroughput for TCP/Reno (packets/s): 110.44
+Packet Loss Rate for TCP/Reno: 0.040
+Average Latency for TCP/Reno (seconds): 0.05275
+Average Thoroughput for TCP/Reno (packets/s): 103.778
+Packet Loss Rate for TCP/Reno: 0.040
 
 
-Average Latency for TCP flow 1: 0.05351
-Average Thoroughput for TCP flow 1 (packets/s):68.78
-Packet Loss Rate for TCP flow1:0.062
-Average Latency for TCP flow 2 (seconds): 0.05581
-Average Thoroughput for TCP flow 2 (packets/s):50.222
-Packet Loss Rate for TCP flow 2:0.038
+Average Latency for TCP/Reno: 0.05289
+Average Thoroughput for TCP/Reno (packets/s): 54.78
+Packet Loss Rate for TCP/Reno: 0.072
+Average Latency for TCP/Reno (seconds): 0.05325
+Average Thoroughput for TCP/Reno (packets/s): 51.889
+Packet Loss Rate for TCP/Reno: 0.047
 
 
-Average Latency for TCP flow 1: 0.05835
-Average Thoroughput for TCP flow 1 (packets/s):8.11
-Packet Loss Rate for TCP flow1:0.198
-Average Latency for TCP flow 2 (seconds): 0.06149
-Average Thoroughput for TCP flow 2 (packets/s):2.778
-Packet Loss Rate for TCP flow 2:0.375
+Average Latency for TCP/Reno: 0.05734
+Average Thoroughput for TCP/Reno (packets/s): 6.22
+Packet Loss Rate for TCP/Reno: 0.222
+Average Latency for TCP/Reno (seconds): 0.06124
+Average Thoroughput for TCP/Reno (packets/s): 0.889
+Packet Loss Rate for TCP/Reno: 0.467
 
 
 ########## new_reno_vegas ##########
-Average Latency for TCP flow 1: 0.05352
-Average Thoroughput for TCP flow 1 (packets/s):628.67
-Packet Loss Rate for TCP flow1:0.001
-Average Latency for TCP flow 2 (seconds): 0.04949
-Average Thoroughput for TCP flow 2 (packets/s):314.222
-Packet Loss Rate for TCP flow 2:0.001
+Average Latency for TCP/Newreno: 0.05352
+Average Thoroughput for TCP/Newreno (packets/s): 628.67
+Packet Loss Rate for TCP/Newreno: 0.001
+Average Latency for TCP/Vegas (seconds): 0.04949
+Average Thoroughput for TCP/Vegas (packets/s): 314.222
+Packet Loss Rate for TCP/Vegas: 0.001
 
 
-Average Latency for TCP flow 1: 0.04962
-Average Thoroughput for TCP flow 1 (packets/s):521.00
-Packet Loss Rate for TCP flow1:0.003
-Average Latency for TCP flow 2 (seconds): 0.04822
-Average Thoroughput for TCP flow 2 (packets/s):226.333
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Newreno: 0.04962
+Average Thoroughput for TCP/Newreno (packets/s): 521.00
+Packet Loss Rate for TCP/Newreno: 0.003
+Average Latency for TCP/Vegas (seconds): 0.04822
+Average Thoroughput for TCP/Vegas (packets/s): 226.333
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.05193
-Average Thoroughput for TCP flow 1 (packets/s):469.44
-Packet Loss Rate for TCP flow1:0.004
-Average Latency for TCP flow 2 (seconds): 0.05047
-Average Thoroughput for TCP flow 2 (packets/s):266.444
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Newreno: 0.05193
+Average Thoroughput for TCP/Newreno (packets/s): 469.44
+Packet Loss Rate for TCP/Newreno: 0.004
+Average Latency for TCP/Vegas (seconds): 0.05047
+Average Thoroughput for TCP/Vegas (packets/s): 266.444
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.04963
-Average Thoroughput for TCP flow 1 (packets/s):401.11
-Packet Loss Rate for TCP flow1:0.006
-Average Latency for TCP flow 2 (seconds): 0.04927
-Average Thoroughput for TCP flow 2 (packets/s):188.111
-Packet Loss Rate for TCP flow 2:0.001
+Average Latency for TCP/Newreno: 0.04963
+Average Thoroughput for TCP/Newreno (packets/s): 401.11
+Packet Loss Rate for TCP/Newreno: 0.006
+Average Latency for TCP/Vegas (seconds): 0.04927
+Average Thoroughput for TCP/Vegas (packets/s): 188.111
+Packet Loss Rate for TCP/Vegas: 0.001
 
 
-Average Latency for TCP flow 1: 0.05212
-Average Thoroughput for TCP flow 1 (packets/s):313.67
-Packet Loss Rate for TCP flow1:0.008
-Average Latency for TCP flow 2 (seconds): 0.05124
-Average Thoroughput for TCP flow 2 (packets/s):204.556
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Newreno: 0.05212
+Average Thoroughput for TCP/Newreno (packets/s): 313.67
+Packet Loss Rate for TCP/Newreno: 0.008
+Average Latency for TCP/Vegas (seconds): 0.05124
+Average Thoroughput for TCP/Vegas (packets/s): 204.556
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.05251
-Average Thoroughput for TCP flow 1 (packets/s):250.67
-Packet Loss Rate for TCP flow1:0.014
-Average Latency for TCP flow 2 (seconds): 0.05122
-Average Thoroughput for TCP flow 2 (packets/s):181.222
-Packet Loss Rate for TCP flow 2:0.002
+Average Latency for TCP/Newreno: 0.05251
+Average Thoroughput for TCP/Newreno (packets/s): 250.67
+Packet Loss Rate for TCP/Newreno: 0.014
+Average Latency for TCP/Vegas (seconds): 0.05122
+Average Thoroughput for TCP/Vegas (packets/s): 181.222
+Packet Loss Rate for TCP/Vegas: 0.002
 
 
-Average Latency for TCP flow 1: 0.05223
-Average Thoroughput for TCP flow 1 (packets/s):147.33
-Packet Loss Rate for TCP flow1:0.032
-Average Latency for TCP flow 2 (seconds): 0.05180
-Average Thoroughput for TCP flow 2 (packets/s):179.889
-Packet Loss Rate for TCP flow 2:0.001
+Average Latency for TCP/Newreno: 0.05223
+Average Thoroughput for TCP/Newreno (packets/s): 147.33
+Packet Loss Rate for TCP/Newreno: 0.032
+Average Latency for TCP/Vegas (seconds): 0.05180
+Average Thoroughput for TCP/Vegas (packets/s): 179.889
+Packet Loss Rate for TCP/Vegas: 0.001
 
 
-Average Latency for TCP flow 1: 0.05403
-Average Thoroughput for TCP flow 1 (packets/s):109.44
-Packet Loss Rate for TCP flow1:0.050
-Average Latency for TCP flow 2 (seconds): 0.05339
-Average Thoroughput for TCP flow 2 (packets/s):116.889
-Packet Loss Rate for TCP flow 2:0.007
+Average Latency for TCP/Newreno: 0.05403
+Average Thoroughput for TCP/Newreno (packets/s): 109.44
+Packet Loss Rate for TCP/Newreno: 0.050
+Average Latency for TCP/Vegas (seconds): 0.05339
+Average Thoroughput for TCP/Vegas (packets/s): 116.889
+Packet Loss Rate for TCP/Vegas: 0.007
 
 
-Average Latency for TCP flow 1: 0.05682
-Average Thoroughput for TCP flow 1 (packets/s):81.78
-Packet Loss Rate for TCP flow1:0.060
-Average Latency for TCP flow 2 (seconds): 0.05695
-Average Thoroughput for TCP flow 2 (packets/s):43.556
-Packet Loss Rate for TCP flow 2:0.037
+Average Latency for TCP/Newreno: 0.05682
+Average Thoroughput for TCP/Newreno (packets/s): 81.78
+Packet Loss Rate for TCP/Newreno: 0.060
+Average Latency for TCP/Vegas (seconds): 0.05695
+Average Thoroughput for TCP/Vegas (packets/s): 43.556
+Packet Loss Rate for TCP/Vegas: 0.037
 
 
-Average Latency for TCP flow 1: 0.05920
-Average Thoroughput for TCP flow 1 (packets/s):10.89
-Packet Loss Rate for TCP flow1:0.176
-Average Latency for TCP flow 2 (seconds): 0.06159
-Average Thoroughput for TCP flow 2 (packets/s):3.222
-Packet Loss Rate for TCP flow 2:0.442
+Average Latency for TCP/Newreno: 0.05920
+Average Thoroughput for TCP/Newreno (packets/s): 10.89
+Packet Loss Rate for TCP/Newreno: 0.176
+Average Latency for TCP/Vegas (seconds): 0.06159
+Average Thoroughput for TCP/Vegas (packets/s): 3.222
+Packet Loss Rate for TCP/Vegas: 0.442
 
 
 ########## vegas_vegas ##########
-Average Latency for TCP flow 1: 0.04381
-Average Thoroughput for TCP flow 1 (packets/s):1578.67
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.04554
-Average Thoroughput for TCP flow 2 (packets/s):494.778
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.04542
+Average Thoroughput for TCP/Vegas (packets/s): 458.00
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04554
+Average Thoroughput for TCP/Vegas (packets/s): 494.778
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.04365
-Average Thoroughput for TCP flow 1 (packets/s):1230.56
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.04545
-Average Thoroughput for TCP flow 2 (packets/s):442.111
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.04538
+Average Thoroughput for TCP/Vegas (packets/s): 331.33
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04545
+Average Thoroughput for TCP/Vegas (packets/s): 442.111
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.04495
-Average Thoroughput for TCP flow 1 (packets/s):1239.56
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.04508
-Average Thoroughput for TCP flow 2 (packets/s):378.222
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.04503
+Average Thoroughput for TCP/Vegas (packets/s): 340.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04508
+Average Thoroughput for TCP/Vegas (packets/s): 378.222
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.04471
-Average Thoroughput for TCP flow 1 (packets/s):1067.33
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.04489
-Average Thoroughput for TCP flow 2 (packets/s):335.222
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.04494
+Average Thoroughput for TCP/Vegas (packets/s): 295.89
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04489
+Average Thoroughput for TCP/Vegas (packets/s): 335.222
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.04540
-Average Thoroughput for TCP flow 1 (packets/s):920.67
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.04599
-Average Thoroughput for TCP flow 2 (packets/s):257.111
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.04596
+Average Thoroughput for TCP/Vegas (packets/s): 284.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04599
+Average Thoroughput for TCP/Vegas (packets/s): 257.111
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.04648
-Average Thoroughput for TCP flow 1 (packets/s):764.44
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.04925
-Average Thoroughput for TCP flow 2 (packets/s):214.222
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.04888
+Average Thoroughput for TCP/Vegas (packets/s): 229.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.04925
+Average Thoroughput for TCP/Vegas (packets/s): 214.222
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.05000
-Average Thoroughput for TCP flow 1 (packets/s):609.33
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.05111
-Average Thoroughput for TCP flow 2 (packets/s):142.667
-Packet Loss Rate for TCP flow 2:0.001
+Average Latency for TCP/Vegas: 0.05056
+Average Thoroughput for TCP/Vegas (packets/s): 197.78
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.05111
+Average Thoroughput for TCP/Vegas (packets/s): 142.667
+Packet Loss Rate for TCP/Vegas: 0.001
 
 
-Average Latency for TCP flow 1: 0.05493
-Average Thoroughput for TCP flow 1 (packets/s):456.56
-Packet Loss Rate for TCP flow1:0.000
-Average Latency for TCP flow 2 (seconds): 0.06057
-Average Thoroughput for TCP flow 2 (packets/s):85.667
-Packet Loss Rate for TCP flow 2:0.000
+Average Latency for TCP/Vegas: 0.05987
+Average Thoroughput for TCP/Vegas (packets/s): 178.22
+Packet Loss Rate for TCP/Vegas: 0.000
+Average Latency for TCP/Vegas (seconds): 0.06057
+Average Thoroughput for TCP/Vegas (packets/s): 85.667
+Packet Loss Rate for TCP/Vegas: 0.000
 
 
-Average Latency for TCP flow 1: 0.05933
-Average Thoroughput for TCP flow 1 (packets/s):197.33
-Packet Loss Rate for TCP flow1:0.007
-Average Latency for TCP flow 2 (seconds): 0.05935
-Average Thoroughput for TCP flow 2 (packets/s):114.556
-Packet Loss Rate for TCP flow 2:0.001
+Average Latency for TCP/Vegas: 0.05839
+Average Thoroughput for TCP/Vegas (packets/s): 44.56
+Packet Loss Rate for TCP/Vegas: 0.031
+Average Latency for TCP/Vegas (seconds): 0.05935
+Average Thoroughput for TCP/Vegas (packets/s): 114.556
+Packet Loss Rate for TCP/Vegas: 0.001
 
 
-Average Latency for TCP flow 1: 0.05185
-Average Thoroughput for TCP flow 1 (packets/s):2.44
-Packet Loss Rate for TCP flow1:0.522
-Average Latency for TCP flow 2 (seconds): 0.05695
-Average Thoroughput for TCP flow 2 (packets/s):0.222
-Packet Loss Rate for TCP flow 2:0.882
+Average Latency for TCP/Vegas: 0.05185
+Average Thoroughput for TCP/Vegas (packets/s): 2.44
+Packet Loss Rate for TCP/Vegas: 0.500
+Average Latency for TCP/Vegas (seconds): 0.05695
+Average Thoroughput for TCP/Vegas (packets/s): 0.222
+Packet Loss Rate for TCP/Vegas: 0.867
 
 
